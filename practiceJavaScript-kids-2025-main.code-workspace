@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../practiceJavaScript-kids-2025-main"
+		},
+		{
+			"path": "../mouse-main/mouse-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mouse-main"
+	}
+}

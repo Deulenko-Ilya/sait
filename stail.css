@@ -1,0 +1,156 @@
+html,
+body {
+    height: 100vh;
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    color: #333;
+
+
+}
+
+header {
+    background: #1a1a1a;
+    padding: 1em 2em;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+
+    margin-right: 40px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    /* display: flex; */
+    flex-direction: column;
+    margin-top: 0px;
+
+
+
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    background-color: #0078d4;
+    color: white;
+    padding: 0.75em 1.5em;
+    border-radius: 8px;
+
+    text-decoration: none;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #005fa3;
+}
+
+main {
+    padding: 2em;
+    animation: fadeIn 1s ease-in-out;
+
+}
+
+footer {
+    background: #d6d6d6;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+
+
+}
+
+/* Анимация появления */
+.fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+a {
+    color: #000000;
+    margin-right: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 40px;
+    margin: 40px;
+}
+
+img {
+    width: 220px;
+    justify-content: center;
+    display: block;
+    margin-inline: auto;
+    margin-top: 0px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.polol {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-inline: auto;
+    margin-top: 0px;
+}
+
+.lake {
+    width: 400px;
+    justify-content: center;
+    display: block;
+    margin-inline: auto;
+    margin-top: 0px;
+}
+
+.zloii {
+    width: 400px;
+    justify-content: center;
+    display: block;
+    margin-inline: auto;
+    margin-top: 0px;
+}
+
+.kochka {
+    width: 400px;
+    justify-content: center;
+    display: block;
+    margin-inline: auto;
+
+}
